@@ -1,0 +1,13 @@
+.box {
+    display:flex ;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    padding: 0 8px;
+}
+.box ul {
+list-style: none;
+display: flex;
+gap: 24px;
+font-weight: 500;
+}

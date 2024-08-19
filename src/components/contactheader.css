@@ -1,0 +1,20 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.container h1 {
+    width: 315px;
+    height: 72px;
+    margin-top: 143px;
+    margin-left: 188px;
+    font-weight: 800;
+    font-size: 48px;
+}
+.container p {
+    width: 975px;
+    height: 72px;
+    margin-left: 188px;
+    font-weight: 300;
+    color: #5A5959;
+  
+}

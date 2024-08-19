@@ -1,0 +1,56 @@
+.containerbox {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: end;
+}
+
+.buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.containerform {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;  
+}
+
+.containerform form {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    width: 100%;  
+}
+
+.form-name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.form-name input,
+.form-name textarea {
+    width: 100%;  
+    box-sizing: border-box;  
+    padding: 8px;
+}
+
+.form-name label {
+    font-size: 14px;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+
+.containerimage {
+    flex: 1;  
+    padding-left: 20px;
+}
